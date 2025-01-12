@@ -17,7 +17,7 @@ export const RoomCode = () => {
   if (!roomId) return null;
 
   return (
-    <div className="absolute top-4 right-4 bg-white/10 backdrop-blur-sm rounded-lg p-3 flex items-center gap-2">
+    <div className="top-4 left-20 bg-white/10 backdrop-blur-sm rounded-lg p-3 flex items-center gap-2">
       <div>
         <div className="text-xs text-gray-300">Room Code</div>
         <div className="font-mono font-medium text-white">{roomId}</div>
